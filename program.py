@@ -149,7 +149,7 @@ class Program:
 
         plt.figure(figsize=(10, 6))
         plt.suptitle('Install-Size')
-        plt.xlabel('Size', fontsize=10)
+        plt.xlabel('Size (in MB)', fontsize=10)
         plt.ylabel('Installations', fontsize=10)
         plt.plot(installs_to_size.Size, installs_to_size.Installs, color='#008000')
         plt.show()
